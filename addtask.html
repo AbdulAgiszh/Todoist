@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addtask</title>
+</head>
+<body>
+    <menu><h2>Addtask here</h2></menu>
+    <form>
+        <label for="taskname">Taskname</label>
+        <input type="text" name="taskname" id="taskname"><br><br>
+        Description<textarea placeholder="Text here"></textarea><br><br>
+        <label for="Duedate">Duedate</label>
+        <input type="date" name="date"><br><br>
+        <label for="Priority">priority</label>
+        <select id="priority" step>
+            <option value="" disabled>---select priority---</option>
+            <option value="low" selected>Low</option>
+            <option value="medium">Medium</option>
+            <option value="High">High</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+      
+        <button>reset</button><br><br>
+    </form>
+    <hr style="border-top: 1px dotted red";>
+</body>
+</html>
